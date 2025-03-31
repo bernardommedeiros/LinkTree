@@ -1,10 +1,11 @@
-function criarAlerta() {
-    // Exibe o alerta
-    var alerta = document.getElementById('alerta');
-    alerta.classList.remove('hidden'); // Remove a classe 'hidden' para mostrar o alerta
+const popup = document.getElementById("gmailCard");
 
-    // Oculta o alerta após 3 segundos
-    setTimeout(function() {
-        alerta.classList.add('hidden'); // Adiciona a classe 'hidden' para esconder o alerta
-    }, 3000);
+function gmailPopup(open) {
+  if (open) {
+    popup.classList.remove("hidden");
+    popup.classList.add("block");  // Torna o popup visível
+  } else {
+    popup.classList.add("hidden");
+    popup.classList.remove("block");  // Esconde o popup
+  }
 }

@@ -6,7 +6,7 @@
     <link href="./output.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="bg-blue-100 font-poppins leading-normal tracking-normal">
+<body class="bg-blue-100 font-poppins ">
     <header >
         <div class="flex items-center justify-center mt-4 mb-4">
             <img class="rounded-full w-1/10 h-1/10 mx-auto mt-4 min-w-32" src="../components/bernardo.jfif" alt="Main photo">
@@ -48,9 +48,19 @@
 
     <div class="flex bg-gray-100 rounded-3xl shadow-md max-w-2xl mx-auto mt-5 p-3 font-semibold ">
         <p><img class="h-10" src="../components/gmail-icon-logo-svgrepo-com.svg" alt=""></p>
-        <h2 class="text-center w-full pt-2">Confira meus projetos no GitHub </h2>
-        <button> <img class="rounded-full w-10 h-8" src="../components/arrow-right-svgrepo-com.svg" alt="arrow-right"></button>
+        <h2 class="text-center w-full pt-2"> Me contate no gmail </h2>
+        <button onclick="gmailPopup(true)"> <img class="rounded-full w-10 h-8" src="../components/arrow-right-svgrepo-com.svg" alt="arrow-right"></button>
     </div>
+
+        <div id="gmailCard" class="hidden"></div>
+            <img src="../components/gmail.svg" alt="">
+    
+            <h2>pop up Gmail</h2>
+    
+            <button type="submit" onclick="gmailPopup(false)">
+                Fechar
+            </button>
+        </div>
 
 
     
