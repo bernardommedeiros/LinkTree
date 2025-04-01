@@ -10,4 +10,4 @@
   
 </div>
 <br>
-Projeto simples com JavaScript puro, afim de exercitar novas funções de compartilhamento, baixar arquivos e eventos, juntamente com a estilização em tailwindcss. Tem como objetivo a criação de uma landing page que direcione para meus links profissionais e sociais.
+Projeto simples com JavaScript puro, afim de exercitar novas funções como de baixar arquivos, eventos e animações, juntamente com a estilização em tailwindcss. Tem como objetivo a criação de uma landing page que direcione para meus links profissionais e sociais.
