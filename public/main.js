@@ -6,5 +6,5 @@ document.getElementById('curriculo_download').addEventListener('click', function
     var link = document.createElement('a');
     link.href = pdfRoute;
     link.download = 'curriculo.pdf'; 
-    link.click(); //clique no link para iniciar o download
+    link.click(); 
 });
