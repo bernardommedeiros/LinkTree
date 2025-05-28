@@ -9,4 +9,4 @@
   
 </div>
 <br>
-Projeto simples, afim de exercitar novas funções como de baixar arquivos, eventos e animações, juntamente com o framework de estilização tailwindCSS. Tem como objetivo a criação de uma landing page que direcione para meus links profissionais e sociais.
+Tem como objetivo a criação de uma landing page que direcione para meus links profissionais e sociais. Afim de exercitar novas funções como de baixar arquivos, eventos e animações, juntamente com o framework de estilização tailwindCSS.
