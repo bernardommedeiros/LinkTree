@@ -1,6 +1,6 @@
-document.getElementById('curriculo_download').addEventListener('click', function() {
+document.getElementById('curriculo_download').addEventListener('click', () => {
 
-    var pdfRoute = '../components/curriculo.pdf';
+    var pdfRoute = 'static/docs/curriculo.pdf';
     
     // link temporário para download
     var link = document.createElement('a');
