@@ -4,6 +4,6 @@
     "tailwindcss": "^4.1.7"
   },
   "scripts": {
-    "build": "npm install -y; npx @tailwindcss/cli -i ./static/css/global.css -o ./static/css/output.css --watch"
+    "prod": "npx @tailwindcss/cli -i ./static/css/global.css -o ./static/css/output.css --watch"
   }
 }
